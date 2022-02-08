@@ -1,3 +1,17 @@
 .img-dark-filter{
     filter: brightness(50%)
 }
+
+.novidades{
+    text-align: center;
+}
+
+.novidades img{
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 2px 2px;
+}
+
+.btn-cardapio-home{
+    font-size: 18px;
+}
