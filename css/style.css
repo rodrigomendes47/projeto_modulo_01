@@ -7,3 +7,6 @@
 #cadastro h2 {
     text-align: center;
 }
+.img-dark-filter{
+    filter: brightness(50%)
+}
