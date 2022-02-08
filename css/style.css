@@ -1,6 +1,16 @@
+#cadastro {
+    margin: 0px 15%;
+    background-color: lightgray;
+    padding: 20px;
+    border: 1px solid black;
+}
+#cadastro h2 {
+    text-align: center;
+}
 .img-dark-filter{
     filter: brightness(50%)
 }
+<<<<<<< HEAD
 
 .novidades{
     text-align: center;
@@ -15,3 +25,5 @@
 .btn-cardapio-home{
     font-size: 18px;
 }
+=======
+>>>>>>> 837352b0da52a39615fa2e4862755afc936a5cbf
