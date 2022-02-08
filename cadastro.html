@@ -17,58 +17,62 @@
             <p>
                 <h2>Cadastro</h2>
             </p>
-            <form class="row g-3">
-                <div class="col-md-3">
+            <form class="row g-3 justify-content-start">
+                <div class="col-md-6">
                     <label for="cadastro-email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="cadastro-email">
+                    <input type="email" class="form-control" id="cadastro-email" name="cadastro-email" required>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <label for="confirme-email" class="form-label">Corfirme o e-mail</label>
-                    <input type="email" class="form-control" id="confirme-email">
+                    <input type="email" class="form-control" id="confirme-email" name="confirme-email" required>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <label for="cadastro-senha" class="form-label">Senha</label>
-                    <input type="password" class="form-control" id="cadastro-senha">
+                    <input type="password" class="form-control" id="cadastro-senha" name="cadastro-senha" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="confirme-senha" class="form-label">Confirme a senha</label>
+                    <input type="password" class="form-control" id="confirme-senha" name="confirme-senha" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="nome" class="form-label">Nome completo</label>
+                    <input type="text" class="form-control" id="nome" name="nome" required>
                 </div>
                 <div class="col-md-3">
-                    <label for="confirme-senha" class="form-label">Confirme a senha</label>
-                    <input type="password" class="form-control" id="confirme-senha">
+                    <label for="cpf" class="form-label">CPF</label>
+                    <input type="text" class="form-control" id="cpf" placeholder="999.999.999-99" name="cpf" required>
                 </div>
-                <div class="col-md-4">
-                    <label for="nome" class="form-label">Nome completo</label>
-                    <input type="text" class="form-control" id="nome">
-                </div>
-                <div class="col-md-1">
+                <div class="col-md-3">
                     <label for="celular" class="form-label">Celular</label>
-                    <input type="tel" class="form-control" id="celular" placeholder="21 999999999">
-                </div>  
-                <div class="col-md-4">
+                    <input type="tel" class="form-control" id="celular" placeholder="21 999999999" name="celular">
+                </div>   
+                <div class="col-md-6">
                     <label for="endereco" class="form-label">Endereço</label>
-                    <input type="text" class="form-control" id="endereco" placeholder="Rua João da Silva">
+                    <input type="text" class="form-control" id="endereco" placeholder="Rua João da Silva" name="endereco" required>
                 </div>
                 <div class="col-md-1">
                     <label for="numero" class="form-label">Número</label>
-                    <input type="text" class="form-control" id="numero">
+                    <input type="number" class="form-control" id="numero" name="numero" min="1" required>
                 </div>
-                <div class="col-md-1">
+                <div class="col-md-2">
                     <label for="cep" class="form-label">CEP</label>
-                    <input type="text" class="form-control" id="cep">
+                    <input type="number" class="form-control" placeholder="99999999" id="cep" name="cep" required>
                 </div>                 
                 <div class="col-3">
                     <label for="complemento" class="form-label">Complemento</label>
-                    <input type="text" class="form-control" id="complemento" placeholder="bloco, apto, referência">
+                    <input type="text" class="form-control" id="complemento" name="complemento" placeholder="bloco, apto, referência">
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-4">
                     <label for="bairro" class="form-label">Bairro</label>
-                    <input type="text" class="form-control" id="bairro">
+                    <input type="text" class="form-control" id="bairro" required>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <label for="cidade" class="form-label">Cidade</label>
-                    <input type="text" class="form-control" id="cidade">
+                    <input type="text" class="form-control" id="cidade" required>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <label for="estado" class="form-label">Estado</label>
-                    <input type="text" class="form-control" id="estado">
+                    <input type="text" class="form-control" id="estado" required>
                 </div>
                 <div class="col-12">
                     <div class="form-check">
@@ -78,10 +82,10 @@
                         </label>
                     </div>
                 </div>
-                <p>
-                    <a href="login.html">Já possui conta? Faça login</a>
-                </p>
-                <div class="col-12">
+                <div style="text-align: center;">
+                    <a href="#login">Já possui conta? Faça login</a>
+                </div>
+                <div class="col-12 text-center">
                 <button type="submit" class="btn btn-primary">Cadastrar</button>
                 </div>
             </form>

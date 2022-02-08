@@ -1,1 +1,9 @@
-
+#cadastro {
+    margin: 0px 15%;
+    background-color: lightgray;
+    padding: 20px;
+    border: 1px solid black;
+}
+#cadastro h2 {
+    text-align: center;
+}
