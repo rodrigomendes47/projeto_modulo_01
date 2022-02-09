@@ -15,9 +15,9 @@ Hamburgueria
 
 ## Divisões
 
-- [ ] Home - Rodrigo  
-- [ ] Cardápio - Weatherly
-- [ ] Cadastro/Login - Nicolas
-- [ ] Nossas lojas - João
-- [ ] Sobre nós - Danniel
+- [X] Home
+- [ ] Cardápio
+- [X] Cadastro/Login
+- [ ] Nossas lojas
+- [ ] Sobre nós
 
