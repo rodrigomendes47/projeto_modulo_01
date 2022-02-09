@@ -1,5 +1,5 @@
 #cadastro {
-    margin: 0px 15%;
+    margin: 20px 15%;
     background-color: lightgray;
     padding: 20px;
     border: 1px solid black;
@@ -32,8 +32,6 @@
     border-radius: 15px;
 
 }
-
-
 .itens {
    
 }
