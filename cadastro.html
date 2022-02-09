@@ -12,7 +12,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-warning">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Hamburgueria</a>
+          <a class="navbar-brand" href="home.html">Hamburgueria</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -28,14 +28,13 @@
                 <a class="nav-link" href="sobre.html">Sobre nós</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Login</a>
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Login</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-
     <main>
         <!-- Seção de Cadastro -->
         <section id="cadastro" name="cadastro">
@@ -108,7 +107,7 @@
                     </div>
                 </div>
                 <div style="text-align: center;">
-                    <a href="#login">Já possui conta? Faça login</a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Já possui conta? Faça login</a>
                 </div>
                 <div class="col-12 text-center">
                 <button type="submit" class="btn btn-warning">Cadastrar</button>
@@ -130,10 +129,55 @@
         <ul class="nav col-md-4 justify-content-end">
           <li class="nav-item"><a href="home.html" class="nav-link px-2 text-muted">Início</a></li>
           <li class="nav-item"><a href="cardapio.html" class="nav-link px-2 text-muted">Cardápio</a></li>
-          <li class="nav-item"><a href="sobre.html" class="nav-link px-2 text-muted">Sobre nós</a></li>
-          <li class="nav-item"><a href="login.html" class="nav-link px-2 text-muted">Login</a></li>
+          <li class="nav-item"><a href="sobre.html" class="nav-link px-2 text-muted">Sobre nós</a></li>          
         </ul>
       </footer>
-
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+            <div class="modal-body">
+            <!-- Login -->
+                <div class="container">
+                    <div class="row">
+                        <!-- Alinhando os texto no centro -->
+                        <div class="col-sm-10 offset-sm-1 text-center">
+                            <!-- Alinhando os inputs e labels no centro -->
+                            <form class="form-inline justify-content-center">                        
+                                <div class="form-inline justify-content-start">
+                                    <label for="login-email" class="form-label">Email: </label>
+                                    <input type="email" class="col-sm-8" id="login-email">
+                                </div>                  
+                                <div class="form-inline justify-content-start">
+                                    <label for="login-senha" class="form-label">Senha: </label>
+                                    <input type="password" class="col-sm-8" id="login-senha">
+                                </div>
+                                <br>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-warning">Entrar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer do modal -->
+            <div class="modal-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <a href="#">Esqueceu a senha?</a>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <a href="cadastro.html">Não possui conta? Cadastre-se</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

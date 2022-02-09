@@ -15,9 +15,9 @@ Hamburgueria
 
 ## Divisões
 
-- [ ] Home
+- [X] Home
 - [ ] Cardápio
-- [ ] Cadastro/Login
+- [X] Cadastro/Login
 - [ ] Nossas lojas
 - [ ] Sobre nós
 
