@@ -28,12 +28,20 @@
     margin: .5cm;
     padding: .3cm;
     border: 2pt solid rgb(7, 7, 7);
-    background-color: gold;
+    background-color: rgb(255,193,7);
     border-radius: 15px;
-
+    width: 25rem;
 }
 
 
-.itens {
-   
+.img-sobre{
+    border-radius: 25px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+@media screen and (max-width:50rem) {
+    .img-sobre{
+        display: none;
+    }
 }
