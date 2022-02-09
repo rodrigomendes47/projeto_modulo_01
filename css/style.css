@@ -23,3 +23,17 @@
 .btn-cardapio-home{
     font-size: 18px;
 }
+
+.sobre {
+    margin: .5cm;
+    padding: .3cm;
+    border: 2pt solid rgb(7, 7, 7);
+    background-color: gold;
+    border-radius: 15px;
+
+}
+
+
+.itens {
+   
+}
